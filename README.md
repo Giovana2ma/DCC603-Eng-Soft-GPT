@@ -2,10 +2,10 @@
 Implementation of a Recommendation System using ChatGPT api
 
 *Membros da equipe e papel* <br>
-  Clara Costa Fonseca:
-  Igor Joaquim da Silva Costa:
-  Joao Luiz Figueiredo Cerqueira:
-  Giovana Assis da Matta Machado:
+  <p>Clara Costa Fonseca:</p>
+  <p>Igor Joaquim da Silva Costa:</p>
+  <p>Joao Luiz Figueiredo Cerqueira:</p>
+  <p>Giovana Assis da Matta Machado:</p>
 
 *Escopo do sistema*<br>
   Objetivo: 
