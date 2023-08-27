@@ -1,6 +1,7 @@
 # DCC603-Eng-Soft-GPT
 Implementation of a Recommendation System using ChatGPT api
 <br>
+<pre>
 *Membros da equipe e papel*
   <p>Clara Costa Fonseca:</p>
   <p>Igor Joaquim da Silva Costa:</p>
@@ -21,3 +22,5 @@ Implementation of a Recommendation System using ChatGPT api
   <p>Linguagem: javascript</p>
   <p>Backend: Node.js</p>
   <p>Frontend: Vue js ou React js</p>
+</pre>
+
