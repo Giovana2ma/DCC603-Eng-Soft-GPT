@@ -1,7 +1,7 @@
 # DCC603-Eng-Soft-GPT
 Implementation of a Recommendation System using ChatGPT api
 
-*Membros da equipe e papel* <br>
+*Membros da equipe e papel* <br></br>
   Clara Costa Fonseca:
   Igor Joaquim da Silva Costa:
   Joao Luiz Figueiredo Cerqueira:
