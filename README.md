@@ -1,6 +1,5 @@
 # DCC603-Eng-Soft-GPT
 Implementation of a Recommendation System using ChatGPT api
-<br>
 <pre>
 *Membros da equipe e papel*
   <p>Clara Costa Fonseca:</p>
