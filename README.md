@@ -4,7 +4,7 @@ Implementation of a Recommendation System using ChatGPT api
 *Membros da equipe e papel*
   Clara Costa Fonseca: Front end dev
   Igor Joaquim da Silva Costa: Fullstack dev
-  Joao Luiz Figueiredo Cerqueira: Back end dev
+  João Luiz Figueiredo Cerqueira: Back end dev
   Giovana Assis da Matta Machado: Back end dev
 
 
