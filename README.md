@@ -1,13 +1,13 @@
 # DCC603-Eng-Soft-GPT
 Implementation of a Recommendation System using ChatGPT api
 
-*Membros da equipe e papel* <br></br>
+*Membros da equipe e papel* <br>
   Clara Costa Fonseca:
   Igor Joaquim da Silva Costa:
   Joao Luiz Figueiredo Cerqueira:
   Giovana Assis da Matta Machado:
 
-*Escopo do sistema*
+*Escopo do sistema*<br>
   Objetivo: 
     Um sistema de recomendação baseado em chatgpt, com foco em filmes. O usuário apresenta um ou dois textos relatando qual tipo de filme ele quer assistir e o sistema retorna uma lista de recomendações.
   Features: 
