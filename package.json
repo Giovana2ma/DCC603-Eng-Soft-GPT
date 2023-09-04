@@ -1,0 +1,29 @@
+{
+  "name": "dcc603-eng-soft-gpt",
+  "version": "1.0.0",
+  "description": "ChatGPT interface to recommend movies",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Giovana2ma/DCC603-Eng-Soft-GPT.git"
+  },
+  "author": "Clara Costa, Giovana Assis, Igor Joaquim, João Figueiredo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Giovana2ma/DCC603-Eng-Soft-GPT/issues"
+  },
+  "homepage": "https://github.com/Giovana2ma/DCC603-Eng-Soft-GPT#readme",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
