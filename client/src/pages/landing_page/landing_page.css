@@ -1,0 +1,226 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* Linear gradient background */
+    background: linear-gradient(150deg, #4A1474 18.4%, #974E54 45.48%, #F5952E 113.55%);
+    /* Other CSS styles for the body */
+    color: #E4D2BA;
+}
+
+header {
+    background: none;
+    box-sizing: border-box;
+    padding: 15px;
+    grid-column: 1 / span 12;
+}
+
+h1 {
+    font-family: Outfit;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h2 {
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+a {
+    color: #E4D2BA;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: underline;
+    text-underline-position: under;
+    /* Optional, sets the underline to be below the text */
+    text-decoration-skip-ink: none;
+    /* Optional, prevents ink spread */
+}
+
+a:hover {
+    transform: scale(1.02);
+    color: #FA9D26;
+}
+
+main {
+    height: 85%;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px;
+}
+
+.logo {
+    border-radius: 83px;
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: rgba(110, 0, 244, 0.31);
+
+    display: flex;
+    justify-content: center;
+    /* Center children horizontally */
+    align-items: center;
+
+    grid-column: 1 / span 2;
+}
+
+.navbar {
+    list-style: none;
+    padding: 0;
+
+    background: rgba(27, 15, 15, 0.10);
+    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+    backdrop-filter: blur(2px);
+
+    grid-column: 7 / span 6;
+
+    display: flex;
+    justify-content: center;
+    /* Center children horizontally */
+    align-items: center;
+    /* Center children vertically */
+
+    height: 45px;
+    flex-shrink: 0;
+}
+
+.text {
+    color: #E4D2BA;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.container {
+    border-radius: 83px;
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s, opacity 0.3s;
+    /* Apply transitions to transform and opacity properties */
+    /* background: #974E54; */
+}
+
+.animation-get-bigger {
+    transition: transform 0.3s, opacity 0.3s;
+    cursor: grab;
+    /* Apply transitions to transform and opacity properties */
+}
+
+.animation-get-bigger:hover {
+    transform: scale(1.1);
+    /* Scale the element to 110% of its original size */
+    opacity: 0.8;
+}
+
+
+
+.main-logo {
+    border-radius: 83px;
+    background: rgba(27, 15, 15, 0.10);
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    /* Center children horizontally */
+    align-items: center;
+
+    height: 30%;
+    margin-bottom: 100px;
+}
+
+.main-content {
+    /* border: 1px solid #ddd; */
+    display: flex;
+    flex-direction: column;
+    /* Stack children vertically */
+    justify-content: center;
+    /* Center children horizontally */
+    align-items: center;
+    /* Center children vertically */
+    grid-column: 1 / span 12;
+    padding: 10px;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 75px);
+    /* 12 columns, each with a width of 75 units */
+    gap: 15px;
+    /* 15-unit gutter between columns */
+    justify-content: center;
+    /* Center content horizontally */
+    /* border: 2px solid #000; */
+}
+
+.button1{
+    border-radius: 83px;
+    background: linear-gradient(97deg, #E9642F 5.21%, #92226E 124.14%);
+    box-shadow: 7px 8px 10px 0px rgba(37, 5, 76, 0.20);
+    border: 0;
+
+    color: #E4D2BA;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+
+    height: 52px;
+    width: 194px;
+
+    cursor: grab;
+}
+
+.i-colorido {
+    color: #FA9D26;
+}
+#main-content-h1{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#main-logo-h2 {
+    text-decoration: underline;
+    text-underline-position: under;
+    /* Optional, sets the underline to be below the text */
+    text-decoration-skip-ink: none;
+    /* Optional, prevents ink spread */
+    line-height: 2.3;
+}
+
+
+#main-logo-text {
+    width: 90%;
+
+    color: #E4D2BA;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* #button-container {
+    margin-top: 140px;
+
+} */
