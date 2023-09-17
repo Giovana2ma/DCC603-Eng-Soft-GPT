@@ -3,6 +3,12 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+body > *
+{
+    transform: scale(0.8)
 }
 
 body {
@@ -55,18 +61,26 @@ a:hover {
     color: #FA9D26;
 }
 
-main {
-    height: 85%;
-    margin: 0;
-    padding: 0;
-}
-
 nav {
     display: flex;
     justify-content: space-around;
     width: 100%;
     padding: 10px;
 }
+
+main {
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    height: 100%;
+}
+
+footer p{
+    margin: 0;
+}
+
 
 .logo {
     border-radius: 83px;
@@ -142,8 +156,9 @@ nav {
     /* Center children horizontally */
     align-items: center;
 
-    height: 30%;
-    margin-bottom: 100px;
+    height: 100%;
+    padding-bottom: 24.900px;
+    margin-bottom: 80px;
 }
 
 .main-content {
@@ -218,6 +233,13 @@ nav {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+#logo-friends-div{
+    margin-bottom: 40.200px;
+    display: flex; 
+    justify-content: center; 
+    /* align-items: center;  */
 }
 
 /* #button-container {
