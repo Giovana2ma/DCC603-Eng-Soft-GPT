@@ -1,0 +1,72 @@
+.animation-grow {
+    transition: transform 0.3s, opacity 0.3s;
+    cursor: grab;
+    /* Apply transitions to transform and opacity properties */
+}
+
+.animation-grow:hover {
+    transform: scale(1.1);
+    /* Scale the element to 110% of its original size */
+    opacity: 0.8;
+}
+
+.animation-rotate {
+    transition: transform 0.3s, opacity 0.3s;
+    cursor: grab;
+    /* Apply transitions to transform and opacity properties */
+}
+
+.animation-rotate:hover {
+    transform: scale(1.1) rotate(3deg);
+    /* Scale the element to 110% of its original size */
+    opacity: 0.8;
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-20px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+@keyframes float2 {
+    0% {
+        line-height: 30px;
+        transform: translatey(0px);
+    }
+
+    55% {
+        transform: translatey(-20px);
+    }
+
+    60% {
+        line-height: 10px;
+    }
+
+    100% {
+        line-height: 30px;
+        transform: translatey(0px);
+    }
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}

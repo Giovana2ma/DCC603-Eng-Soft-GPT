@@ -1,0 +1,131 @@
+.speech-balloon {
+    color: #E4D2BA;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: linear-gradient(97deg, #E9642F 5.21%, #92226E 124.14%);
+    ;
+
+    padding: 20px;
+    width: 100%;
+    grid-column: 4 / span 7;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: float 5s ease-in-out infinite;
+
+}
+
+.speech-input {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    opacity: 70%;
+}
+
+.speech-balloon::after {
+    transform: translatey(0px);
+    animation: float2 5s ease-in-out infinite;
+    content: ".";
+    font-weight: bold;
+    -webkit-text-fill-color: #E9642F;
+    text-shadow: 22px 22px rgba(110, 0, 244, 0.31);
+    text-align: left;
+    font-size: 55px;
+    width: 55px;
+    height: 11px;
+    line-height: 30px;
+    border-radius: 11px;
+    background-color: #E9642F;
+    position: relative;
+    display: block;
+    bottom: -63px;
+    left: -572px;
+    box-shadow: 22px 22px rgba(110, 0, 244, 0.31);
+    z-index: -2;
+}
+
+.speech-input:focus {
+    outline: rgba(14, 8, 8, 0.1);
+}
+
+.friend1 {
+    animation: float 5s ease-in-out infinite;
+
+    height: 300px;
+    width: auto;
+    scale: (0.1);
+    grid-column: 2 / span 12;
+}
+
+.overlay {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: rgba(8, 3, 3, 0.13);
+    border-radius: 2rem;
+    backdrop-filter: blur(100px);
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.09);
+    gap: 15px;
+
+    padding: 2rem;
+    grid-column: 2 / span 11;
+
+
+}
+
+/* .overlay::before {
+
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 2rem; 
+    padding: 1px; 
+    background:linear-gradient(145deg, #ff9267 5.21%, #4814a2 143.14%);
+    -webkit-mask: 
+       linear-gradient(#fff 0 0) content-box, 
+       linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude; 
+  } */
+
+
+
+
+#button-container {
+    display: grid;
+    grid-template-columns: 400px 250px 325px;
+    width: 100%;
+    /* justify-content: space-between; */
+    align-items: center;
+    box-shadow: none;
+    background: transparent;
+}
+
+.rec_for_two {
+    text-decoration: none;
+    opacity: 60%;
+    padding-left: 34px;
+    line-height: 12px;
+
+    font-weight: 500;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    grid-column: 3 / span 4;
+}
+
+.button1 {
+    grid-column: 2 / span 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+}
