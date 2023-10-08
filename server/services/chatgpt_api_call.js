@@ -3,8 +3,7 @@ const axios = require('axios');
 
 const fetchArticleRecChatGPT = async (movieList) => {
     try{
-        //const headers = {"Authorization": `Bearer ${process.env.CHAT_GPT_KEY}`}
-        const headers = {"Authorization": `Bearer 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`}
+        const headers = {"Authorization": `Bearer ${process.env.CHAT_GPT_KEY}`}
         const url = 'https://api.openai.com/v1/chat/completions';
         const data = {
             model: 'gpt-3.5-turbo',
@@ -31,4 +30,5 @@ const fetchArticleRecChatGPT = async (movieList) => {
     }
 };
 
-module.exports = { fetchArticleRecChatGPT }; 
+
+module.exports = { fetchArticleRecChatGPT };
