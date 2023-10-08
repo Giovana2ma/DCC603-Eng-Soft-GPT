@@ -141,18 +141,6 @@ footer p{
     /* background: #974E54; */
 }
 
-.animation-get-bigger {
-    transition: transform 0.3s, opacity 0.3s;
-    cursor: grab;
-    /* Apply transitions to transform and opacity properties */
-}
-
-.animation-get-bigger:hover {
-    transform: scale(1.1);
-    /* Scale the element to 110% of its original size */
-    opacity: 0.8;
-}
-
 .grid {
     display: grid;
     grid-template-columns: repeat(12, 75px);

@@ -1,0 +1,80 @@
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(12, 75px);
+    /* 12 columns, each with a width of 75 units */
+    gap: 15px;
+    /* 15-unit gutter between columns */
+    justify-content: center;
+
+    grid-row: 2;
+
+}
+
+.left-side {
+    grid-column: 1 / span 7;    
+    padding-left: 0;
+}
+
+.right-side {
+    grid-column: 9 / span 5;
+    padding-right: 0;
+
+}
+
+.grid2 .grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    /* 12 columns, each with a width of 75 units */
+    gap: 15px;
+    /* 15-unit gutter between columns */
+    justify-content: center;
+
+    /* height: 100%; */
+    width: 100%;
+}
+
+.speech-balloon {
+    grid-column: 1 / span 3;
+    min-width: 390px;
+    max-width: 390px;
+}
+
+.right-side img
+{
+    grid-column: 3 / span 3;
+    justify-self: right;
+
+}
+
+.left-side img
+{
+    grid-column: 1 / span 3;
+    justify-self: left;
+    z-index: 3;
+
+}
+
+.grid2 #button-container{
+    grid-column: 2 / span 12;
+    width: 100%;
+
+    grid-template-columns: 500px 300px 400px;
+}
+
+.left-side .speech-balloon
+{
+    grid-column: 3 / span 12;
+}
+
+.left-side .speech-balloon::after {
+    left: -350px;
+}
+
+.right-side .speech-balloon::after {
+    z-index: 2;
+    left: 10px;
+    text-align: right;
+
+    text-shadow: -27px 22px rgba(110, 0, 244, 0.31);
+    box-shadow: -27px 22px rgba(110, 0, 244, 0.31);
+}
