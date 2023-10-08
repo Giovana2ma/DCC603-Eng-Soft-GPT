@@ -4,7 +4,7 @@ const axios = require('axios');
 const fetchArticleRecChatGPT = async (movieList) => {
     try{
         //const headers = {"Authorization": `Bearer ${process.env.CHAT_GPT_KEY}`}
-        const headers = {"Authorization": `Bearer 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`}
+        const headers = {"Authorization": `Bearer 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`}
         const url = 'https://api.openai.com/v1/chat/completions';
         const data = {
             model: 'gpt-3.5-turbo',
@@ -24,6 +24,7 @@ const fetchArticleRecChatGPT = async (movieList) => {
         };
 
         const response = await axios.post(url, data, { headers });
+        console.log(response.data.choices[0].message.content);
         return response.data.choices[0].message.content;
     } catch(error) {
         console.log(error)
@@ -31,4 +32,6 @@ const fetchArticleRecChatGPT = async (movieList) => {
     }
 };
 
+
+fetchArticleRecChatGPT(['Game of thrones']);
 module.exports = { fetchArticleRecChatGPT }; 
