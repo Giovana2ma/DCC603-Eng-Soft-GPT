@@ -3,7 +3,6 @@ const cors = require('cors');
 const body_parser = require("body-parser");
 require("dotenv").config(); 
 const app = express();
-const body_parser = require("body-parser");
 
 
 
@@ -17,15 +16,11 @@ const { doubleMovieFormValidation } = require('./forms/double_movie_form')
 
 const { singleMovieFormValidation } = require('./forms/single_movie_form')
 
-
-app.use(body_parser.json());
 app.use(cors());
 app.use(express.json());
 app.use(body_parser.json());
 
 const port = parseInt(process.env.PORT) || 8080;
-app.listen(port, () => console.log(`Server started on port ${port}`));
-
 app.get('/', (req, res) => {
   return res.send(`Function status: ONLINE`);
 });
