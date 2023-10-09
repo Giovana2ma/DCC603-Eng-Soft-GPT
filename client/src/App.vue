@@ -1,26 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <SugestionsComponent />
+  <div>
+    <HeaderComponent />
+  </div>
 </template>
 
 <script>
-import SugestionsComponent from './components/SugestionsComponent.vue'
+import HeaderComponent from "./components/HeaderComponent.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    SugestionsComponent
-  }
-}
+    // LandinPageComponent,
+    HeaderComponent,
+  },
+};
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
