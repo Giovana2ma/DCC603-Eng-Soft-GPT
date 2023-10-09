@@ -3,12 +3,7 @@ const axios = require('axios');
 
 const fetchArticleRecChatGPT = async (movieList) => {
     try{
-<<<<<<< HEAD
         const headers = {"Authorization": `Bearer ${process.env.CHAT_GPT_KEY}`}
-=======
-        //const headers = {"Authorization": `Bearer ${process.env.CHAT_GPT_KEY}`}
-        const headers = {"Authorization": `Bearer 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`}
->>>>>>> 3bd4467cfcc604361dbe9a9816e7fe2afc35977b
         const url = 'https://api.openai.com/v1/chat/completions';
         const data = {
             model: 'gpt-3.5-turbo',
@@ -37,9 +32,4 @@ const fetchArticleRecChatGPT = async (movieList) => {
 };
 
 
-<<<<<<< HEAD
 module.exports = { fetchArticleRecChatGPT };
-=======
-fetchArticleRecChatGPT(['Game of thrones']);
-module.exports = { fetchArticleRecChatGPT }; 
->>>>>>> 3bd4467cfcc604361dbe9a9816e7fe2afc35977b
