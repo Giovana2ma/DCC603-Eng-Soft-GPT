@@ -29,6 +29,5 @@ const fetchStreamingInfo = async (movie) => {
     }
 };
 
-fetchStreamingInfo('handmaidstale');
 
 module.exports = fetchStreamingInfo; 
