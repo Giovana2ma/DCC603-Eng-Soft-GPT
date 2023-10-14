@@ -1,4 +1,5 @@
 const axios = require('axios');
+const movie_genres = require('./movie_genres');
 
 
 const fetchMovieIdImdb = async (movie) => {
@@ -43,7 +44,8 @@ const fetchMovieInfoImdb = async (movieId) => {
             'rating': response.data.ratings.rating,   
             'year': response.data.title.year,
             'title': response.data.title.title,
-            'summary': response.data.plotOutline.text
+            'summary': response.data.plotOutline.text,
+            'genres': movie_genres(response.data.genres)
         }
         return info;
     } catch(error) {
@@ -52,5 +54,4 @@ const fetchMovieInfoImdb = async (movieId) => {
     }
 };
 
-// fetchMovieIdImdb("Game of Thrones")
 module.exports = { fetchMovieIdImdb, fetchMovieInfoImdb}; 
