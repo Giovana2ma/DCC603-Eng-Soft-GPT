@@ -3,7 +3,6 @@
         <div class="container logo animation-grow">
             <img src="../../public/assets/robot_alternative.svg" alt="Alternative Text" width="42.197px" height="41.33px" padding="10px">
             <p>FR<span class="i-colorido">i</span>ENDs</p>
-            
         </div>
 
         <div class="container navbar">
