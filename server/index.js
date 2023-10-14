@@ -7,7 +7,7 @@ const app = express();
 
 
 
-const {MovieInfoController, MovieIdController}= require('./controllers/movie_controller');
+const {MovieInfoController, MovieIdController, MovieStreamingController}= require('./controllers/movie_controller');
 
 const NewRecommendationController = require('./controllers/recommendation_controller');
 
@@ -37,8 +37,10 @@ app.post('/getNewSingleRec', async (req, res) => {
   let movieName =   await NewRecommendationController(req, res, movieList);
   let movieId   =   await  MovieIdController(req, res, movieName);
   let movieInfo =   await  MovieInfoController(req, res, movieId);
+  let movieStreaming = await MovieStreamingController(req, res, movieName);
   return res.json({
-    movieInfo: movieInfo
+    movieInfo: movieInfo,
+    movieStreaming: movieStreaming
   });
 });
 
