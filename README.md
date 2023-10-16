@@ -19,8 +19,9 @@ Implementation of a Recommendation System using ChatGPT api
 
 *Tecnologias*
   Linguagem: javascript
-  Back end: Node.js
-  Front end: Vue js ou React js
+  Apis: openai, imdb, streaming availability
+  Back end: Node.js (Express) 
+  Front end: Vue js
 </pre>
 
 <h2>Backlog do Produto&nbsp;</h2>
