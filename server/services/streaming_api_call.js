@@ -26,10 +26,7 @@ const fetchStreamingInfo = async (movieName) => {
         if(response.data.result[0].streamingInfo.br){
             return streaming_platforms(response.data.result[0].streamingInfo.br);
         }else{
-            info = {
-                'platform': [],
-                'links': [],
-            }
+            info = [];
             return info;
         }
     } catch (error) {

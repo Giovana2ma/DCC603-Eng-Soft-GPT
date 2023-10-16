@@ -23,7 +23,6 @@ const fetchArticleRecChatGPT = async (movieList) => {
         };
 
         const response = await axios.post(url, data, { headers });
-        console.log(response.data.choices[0].message.content);
         return response.data.choices[0].message.content;
     } catch(error) {
         console.log(error)
