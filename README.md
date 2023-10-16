@@ -22,6 +22,7 @@ Implementation of a Recommendation System using ChatGPT api
   Apis: openai, imdb, streaming availability
   Back end: Node.js (Express) 
   Front end: Vue js
+  Prototipagem: figma.com
 </pre>
 
 <h2>Backlog do Produto&nbsp;</h2>
