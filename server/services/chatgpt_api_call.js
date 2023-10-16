@@ -10,7 +10,7 @@ const fetchArticleRecChatGPT = async (movieList) => {
             messages: [
                 {
                     role: 'system',
-                    content: `You are a cinema expert. Create a movie recommendation based on the user entry, that can be anything, you should come up with a movie or series that exists and is somehow related to the theme, name, movie, actor given. Your answer should be ONLY the name of movie recommended and nothing more`
+                    content: `You are a cinema expert. Create a movie recommendation based on the user entry, you should come up with a movie or series that exists and is somehow related to the theme, name, movie, actor, word given, it doesnt need to be directly related. Your answer should be only the name of movie or series that exist between quotation marks.`
                 },
                 {
                     role: 'user',
