@@ -129,3 +129,7 @@ Implementation of a Recommendation System using ChatGPT api
 <li>[<strong>Frontend|Backend</strong>] Instalar o Vue (Cli)&nbsp; em:<a href="https://insomnia.rest/download" target="_blank" rel="noopener"> </a><span style="text-decoration: underline;">https://br.vuejs.org/v2/guide/installation.html</span></li>
 <li>[<strong>Frontend</strong> ] Instalar a extens&atilde;o Live Server do VSCode.</li>
 </ul>
+
+*Diagrama de Sequências*
+
+![Diagrama de sequência Eng Software](https://github.com/Giovana2ma/DCC603-Eng-Soft-GPT/assets/104951500/6ac9ec98-fafa-4a56-88ac-d8c69387de1f)
