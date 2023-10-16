@@ -37,7 +37,7 @@ app.post('/getNewSingleRec', async (req, res) => {
   let movieName =   await NewRecommendationController(req, res, movieList);
   let movieId   =   await  MovieIdController(req, res, movieName);
   let movieInfo =   await  MovieInfoController(req, res, movieId);
-  let movieStreaming = await MovieStreamingController(req, res, movieName);
+  let movieStreaming = await MovieStreamingController(req, res, movieInfo.title);
   return res.json({
     movieInfo: movieInfo,
     movieStreaming: movieStreaming
@@ -57,7 +57,7 @@ app.post('/getNewDoubleRec', async (req, res) => {
   let movieName =   await NewRecommendationController(req, res, movieList);
   let movieId   =   await  MovieIdController(req, res, movieName);
   let movieInfo =   await  MovieInfoController(req, res, movieId);
-  let movieStreaming = await MovieStreamingController(req, res, movieName);
+  let movieStreaming = await MovieStreamingController(req, res, movieInfo.title);
   return res.json({
     movieInfo: movieInfo,
     movieStreaming: movieStreaming
