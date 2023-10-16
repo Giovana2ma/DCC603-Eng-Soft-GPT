@@ -133,3 +133,8 @@ Implementation of a Recommendation System using ChatGPT api
 *Diagrama de Sequências*
 
 ![Diagrama de sequência Eng Software](https://github.com/Giovana2ma/DCC603-Eng-Soft-GPT/assets/104951500/6ac9ec98-fafa-4a56-88ac-d8c69387de1f)
+
+*Diagrama de Atividade*
+
+![image](https://github.com/Giovana2ma/DCC603-Eng-Soft-GPT/assets/80779444/30ee4e25-1154-4882-903f-9236b151c83a)
+
